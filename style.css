@@ -227,6 +227,38 @@ html {
   margin-top: 1rem;
 }
 
+/*AVAILABLE WORK*/
+
+.available-originals {
+  padding: 1rem 2rem 6rem;
+}
+
+.available-content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.available-content h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.available-content p {
+  color: #5d5d5d;
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
+
+.text-link {
+  color: #1f1f1f;
+  text-decoration: none;
+  border-bottom: 1px solid #1f1f1f;
+  padding-bottom: 2px;
+}
+
 /*ABOUT CONTENT*/
 
 .about-preview {
@@ -362,6 +394,14 @@ html {
 
 .selected-work .gallery-grid {
   gap: 0.5rem;
+}
+
+.available-originals {
+  padding: 1rem 1.5rem 4rem;
+}
+
+.available-content h2 {
+  font-size: 2.4rem;
 }
 }
 
