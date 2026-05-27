@@ -321,6 +321,30 @@ html {
   .selected-work .gallery-grid {
   grid-template-columns: 1fr 1fr;
   }
+
+  .hero {
+  padding: 2rem 1.5rem 4rem;
+}
+
+.featured-work {
+  padding: 2rem 1.5rem 4rem;
+}
+
+.about-preview {
+  padding: 1rem 1.5rem 4rem;
+}
+
+.inquiries {
+  padding: 1rem 1.5rem 4rem;
+}
+
+.selected-work {
+  padding: 1rem 1.5rem 4rem;
+}
+
+.selected-work .gallery-grid {
+  gap: 0.6rem;
+}
 }
 
 /* INQUIRIES */
