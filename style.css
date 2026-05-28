@@ -342,19 +342,43 @@ html {
 
 .portfolio-grid {
   max-width: 1200px;
+
   margin: 0 auto;
-  columns: 3 280px;
-  column-gap: 1.5rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1rem;
+
+  align-items: start;
 }
 
 .portfolio-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
+  background: transparent;
+  padding: 1.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 320px;
 }
 
 .portfolio-item img {
   width: 100%;
+  max-height: 280px;
+
+  object-fit: contain;
+
   display: block;
+}
+
+.page-subtle {
+  margin-top: 1.5rem;
+
+  font-size: 0.88rem;
+
+  color: #7a7a7a;
 }
 
 /* MOBILE */
@@ -448,6 +472,11 @@ html {
 .available-content h2 {
   font-size: 2.4rem;
 }
+
+.portfolio-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
 }
 
 /* INQUIRIES */
