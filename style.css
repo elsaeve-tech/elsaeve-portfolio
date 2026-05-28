@@ -312,6 +312,51 @@ html {
   }
 }
 
+/*PAGES*/
+
+.page-hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.page-hero p {
+  max-width: 620px;
+  margin: 0 auto;
+  color: #5d5d5d;
+  line-height: 1.9;
+}
+
+.illustration-gallery {
+  padding: 1rem 2rem 8rem;
+}
+
+.portfolio-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  columns: 3 280px;
+  column-gap: 1.5rem;
+}
+
+.portfolio-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+}
+
 /* MOBILE */
 
 @media (max-width: 900px) {
