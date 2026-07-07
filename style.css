@@ -381,6 +381,41 @@ html {
   color: #7a7a7a;
 }
 
+.paintings-gallery {
+  padding: 1rem 2rem 8rem;
+}
+
+.painting-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 1.5rem;
+}
+
+.painting-item img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+  display: block;
+
+  transition:
+    transform 0.45s ease,
+    opacity 0.25s ease;
+}
+
+.painting-item {
+  overflow: hidden;
+}
+
+.painting-item img:hover {
+  opacity: 0.96;
+  transform: scale(1.015);
+}
+
 /* MOBILE */
 
 @media (max-width: 900px) {
@@ -475,6 +510,15 @@ html {
 
 .portfolio-grid {
   grid-template-columns: 1fr 1fr;
+}
+
+.paintings-gallery {
+  padding: 2rem 1.5rem 4rem;
+}
+
+.painting-grid {
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 }
